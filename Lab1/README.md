@@ -17,6 +17,8 @@ We've copied the questions from the lab here. Answer them below!
 **a. What color stripes are on a 100 Ohm resistor?**
      *100 Ohm - brown, black, black, black*
      *220 Ohm - red, red, black, black*
+     
+     
 **b. What do you have to do to light your LED?**
      *connect the ardunio and press the button*
 
@@ -27,12 +29,20 @@ We've copied the questions from the lab here. Answer them below!
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
      *line 33 to line 36*
+     
+     
 **b. What line(s) of code do you need to change to change the rate of blinking?**
      *line 34 and line 36*
+     
+     
 **c. What circuit element would you want to add to protect the board and external LED?**
      *an resistor in series with the LED*
+     
+     
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
      *I tried 1000ms, 100ms, 50ms, 25ms, 20ms, 15ms and 10ms. At 10ms delay, I can no longer perceive the LED blinking.*
+     
+     
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
      
 
@@ -55,8 +65,10 @@ We've copied the questions from the lab here. Answer them below!
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
      *Change the led pin from 9 to 11.*
 
+
 **b. What is analogWrite()? How is that different than digitalWrite()?**
      *For digitalWrite(), you can only assign high or low to output voltage which is 5V or 0V. However, for analogWrite(), you can output voltages in between 0 to 5V.* 
+
 
 ## Part F. FRANKENLIGHT!!!
 
@@ -65,14 +77,18 @@ We've copied the questions from the lab here. Answer them below!
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
      *Yes. It's inside the Atmel ATmega32U4 Microcontroller. It's constantly storing memory and extracting memory with a clock.*
 
+
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
      *No.* 
+
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
      *The device is powered through USB mini-B. I think te power regulation is down by the USB cable. The voltages used throughout hte system are 5V and ground.* 
 
+
 **d. Is information stored in your device? Where? How?**
      *Yes. The information is stored in the ATmega32U4 8-bit Microcontroller with 16/32K bytes of ISP Flash and USB Controller.*
+
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
