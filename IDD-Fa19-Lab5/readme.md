@@ -4,7 +4,7 @@
 
 Please put your sketches or designs for the Jack in the Box.  
 
-    <img src= "0A4A7517-1230-40E0-985C-059DE42A64F6.jpeg">
+    <img src= "img/0A4A7517-1230-40E0-985C-059DE42A64F6.jpeg">
 
 ## Laser Cutting
 
