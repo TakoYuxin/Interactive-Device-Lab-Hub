@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf8"/>
+        <title>Interaction Engine - Hello You!</title>
+        <script src="/socket.io/socket.io.js"></script>
+    </head>
+    <body>
+        <body bgcolor="#a86832">
+        <font size="7" color="#57534a"><b>Trick or Treat Door Bell ^_^</b></font><br />
+        <button style="background-color:rgb(43, 36, 36); border-color:rgb(235, 119, 11); color:white" onclick="ledON()">TRICK</button>
+        <button style="background-color:rgb(43, 36, 36); border-color:rgb(235, 119, 11); color:white" onclick="ledOFF()" autofocus>TREAT</button>
+
+      </br>
+        <img src="imgs/hat1.png" style="width:10%">
+        <img src="imgs/hat2.png" style="width:10%">
+        <img src="imgs/pot.png" style="width:10%">
+        <marquee direction="down" behavior="alternate" height="200" width="800">
+            <img  src="" id= "candyContainer" style="width:10%">
+        </marquee>
+        <img src="" id= "pictureContainer" alt="WebCam image  made by the webserver">
+        <script src="client.js"></script>
+    </body>
+</html>
